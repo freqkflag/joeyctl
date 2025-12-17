@@ -20,6 +20,12 @@ sudo mv joeyctl /usr/local/bin/joeyctl
 3. `chmod +x /usr/local/bin/joeyctl`.
 4. Run `joeyctl --help` to verify.
 
+### Via install script
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/freqkflag/joeyctl/main/install.sh | sudo bash
+```
+
 ## Usage
 
 ### Traefik catchall helpers
